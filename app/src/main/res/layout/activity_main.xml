@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/editDistancia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
@@ -23,10 +24,12 @@
         android:text="@string/total_de_Kms" />
 
     <EditText
+        android:id="@+id/editPreco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:hint="@string/preco" />
+        android:hint="@string/preco"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,10 +38,12 @@
         android:text="@string/preco_por_litro" />
 
     <EditText
+        android:id="@+id/editAuto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:hint="@string/autonomia" />
+        android:hint="@string/autonomia"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,7 +60,8 @@
         android:textAllCaps="true"
         android:textSize="15sp" />
 
-    <EditText
+    <TextView
+        android:id="@+id/editResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -70,9 +76,8 @@
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:background="@color/brown"
+        android:background="@color/teal_200"
         android:text="@string/calcular"
-        android:onClick="teste"
         android:textColor="@color/white"
         android:textSize="20sp" />
 

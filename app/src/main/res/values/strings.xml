@@ -9,4 +9,6 @@
     <string name="preco_por_litro">Preço por Litro</string>
     <string name="kms_por_litro">Kms por Litro</string>
     <string name="valor_total_rs">R$</string>
+    <string name="preencha_todos_campo">Preencha Todos os Campos</string>
+    <string name="insira_numero_valido">Insira um Número Válido</string>
 </resources>
